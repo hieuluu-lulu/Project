@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="https://d.shutto-translation.com/trans.js?id=19065"></script>
+    <style>
+      body {
+        font-family: "Times New Roman", Georgia, Serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+      }
+
+      .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+      }
+
+      /* Style the buttons inside the tab */
+      .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 12px;
+        word-break: break-word;
+        white-space: normal;
+        padding: 8px 12px;
+        /* width: 90px; */
+      }
+
+      /* Change background color of buttons on hover */
+      .tab button:hover {
+        background-color: #ddd;
+      }
+
+      /* Create an active/current tablink class */
+      .tab button.active {
+        background-color: #ccc;
+      }
+
+      /* Style the tab content */
+      .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing: 4px">
+        <a href="#home" class="w3-bar-item w3-button">グルメ・オ・ケータリング</a>
+        <!-- Right-sided navbar links. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="#about" class="w3-bar-item w3-button">私たちに関しては</a>
+          <a href="#menu" class="w3-bar-item w3-button">メニュー</a>
+          <a href="#contact" class="w3-bar-item w3-button">コンタクト</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header
+      class="w3-display-container w3-content w3-wide"
+      style="max-width: 1600px; min-width: 500px"
+      id="home"
+    >
+      <img
+        class="w3-image"
+        src="https://www.w3schools.com/w3images/hamburger.jpg"
+        alt="Hamburger Catering"
+        width="1600"
+        height="800"
+      />
+      <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+        <h1 class="w3-xxlarge">ル ケータリング</h1>
+      </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width: 1100px">
+      <!-- About Section -->
+      <div class="w3-row w3-padding-64" id="about">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+          <img
+            src="https://www.w3schools.com/w3images/tablesetting2.jpg"
+            class="w3-round w3-image w3-opacity-min"
+            alt="Table Setting"
+            width="600"
+            height="750"
+          />
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+          <h1 class="w3-center">ケータリングについて</h1>
+          <br />
+          <h5 class="w3-center">1889年以来の伝統</h5>
+          <p class="w3-large">
+            辞ノムホ橋野れをは一65報ぼそか幸国スナウイ光金フラ表5第頚をスク特足めリぜ示作リ雑属ぜ勉竹め発島党垣猛ぶぼゆす。不ナイ郎無をドる月載くに姫靴ユロ立然まか並本5独ワルタロ無本ラ分地ラリソ菊思ルセホテ政田ゆい春珍供中あンぜは坂新ひむ顔合マイヲミ正起けッ上6特春環卓へラ。意ぼんげも性載ネクニ下絶ロメケル渉出ろ区検らそ専試タ読建訓毎で芋事ニス広考がてあ木楽亜才滅どフ。
+            <span class="w3-tag w3-light-grey">こんにちは</span> あなた.
+          </p>
+          <p class="w3-large w3-text-grey w3-hide-medium">
+            9現さのを芸進ぶ特公テエロラ子江レつべ謙次認こふやろ統衆リふ盛線マユ乃不索ばご年連広ニケモ利担私フぼス。年む近子つまはイ作強業しいびけ険能ヱ長天ぐたれ沢地どやスを利造にト各私折シスモニ意4憂マ引5況サソネシ転洋アオタフ手32左居る海呼訃人れふ。構書かでだ熱行ミ合異どづ年近ヤワテセ勢4際いぽにむ更索メ法折闘ムラニチ然旧うよ働受サヘ女夕ス足越智湾緩ひくゃ。
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Menu Section -->
+      <div class="w3-row w3-padding-64" id="menu">
+        <div class="w3-col l6 w3-padding-large">
+          <h1 class="w3-center">メニュー</h1>
+          <br />
+          <h4>パンかご</h4>
+          <p class="w3-text-grey">焼きたてのフルーツパンとマフィンの盛り合わせ 5.50</p>
+          <br />
+
+          <h4>フルーツ入りハニーアーモンドグラノーラ</h4>
+          <p class="w3-text-grey">
+            ハニートーストしたオーツ麦、レーズン、アーモンド、ナツメヤシの天然シリアル 7.00
+          </p>
+          <br />
+
+          <h4>ベルギーワッフル</h4>
+          <p class="w3-text-grey">麦芽粉入りバニラ風味のバッター 7.50</p>
+          <br />
+
+          <h4>スクランブルエッグ</h4>
+          <p class="w3-text-grey">
+            スクランブルエッグ、赤ピーマンとガーリックのロースト、ネギ添え 7.50
+          </p>
+          <br />
+
+          <h4>ブルーベリーパンケーキ</h4>
+          <p class="w3-text-grey">シロップ、バター、ベリーたっぷり 8.50</p>
+        </div>
+
+        <div class="w3-col l6 w3-padding-large">
+          <img
+            src="https://www.w3schools.com/w3images/tablesetting.jpg"
+            class="w3-round w3-image w3-opacity-min"
+            alt="Menu"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+
+      <hr />
+
+      <div id="London" class="tabcontent">
+        <h3>ロンドン</h3>
+        <p>
+          ロンドン (英語: London; 英語の発音: /ˈlʌndən/) は、グレートブリテン (イングランド)
+          およびグレートブリテンおよび北アイルランド連合王国 (UK) の首都で最大の都市です。
+          ロンドンは 2000 年前にローマ人によって設立され、最初の名前はロンディニウム (ローマン
+          ロンドン) でした。 ロンドンの古代の主要な中心地はシティ オブ
+          ロンドンであり、中世の平方マイルの境界を壮大なスケールで今も維持しています。 早くも 19
+          世紀には、「ロンドン」という名前は、主要な中心部を中心に発展した大都市として知られていた
+          。都市集積の合併により、ロンドン地域 と大ロンドン行政地域 [注
+          が形成され、ロンドン市長とロンドン評議会による選挙によって管理されます。
+        </p>
+      </div>
+
+      <div id="Paris" class="tabcontent">
+        <h3>パリ</h3>
+        <p>
+          パリ (フランス語の発音: [paʁi])
+          は、フランスの首都であり、最も人口の多い都市であり、ロンドンとニューヨークと共に世界で最も急速に成長している
+          3 つの経済都市の 1 つであり、主要な経済の中心地です。 -2019 年の推定人口が 2,165,423
+          人で、面積が 105.4 平方キロメートル (40.7 平方マイル) を超えるド フランス地域. 17
+          世紀以来、パリは金融、外交、経済の主要な中心地の 1
+          つです。商業、ファッション、料理、科学、世界の芸術全般。
+          パリ市はこの地域の中心であり、政府の本拠地であり、イル・ド・フランス州またはパリ地方の推定人口は
+          1,226 万 2,544 人で、2019 年時点でフランスの人口の約 19% を占めています。 2019 年の GDP は
+          7,390 億ユーロ (7,430 億ドル) で、ヨーロッパで最高です. Economist Intelligence Unit の
+          2021 年の世界生活費調査によると、パリは世界で 2
+          番目に物価の高い都市です。チューリッヒ、香港、オスロ、ジュネーブに先んじています[7]。
+          別の情報源は、2018
+          年にパリを最も物価の高い都市としてランク付けし、シンガポールと香港と同等でした。
+        </p>
+      </div>
+
+      <div id="Tokyo" class="tabcontent">
+        <h3>東京</h3>
+        <p>
+          東京は日本の本州の南東にある関東地方の一部であり、伊豆諸島と小笠原諸島が含まれています。
+          1603 年に将軍徳川家康が東京を本拠地としたとき、東京は以前は江戸と呼ばれていました。
+          その時、江戸は東京と改称されました。 現在の首都東京は、1943 年に東京政府 (東京府
+          Tōkyō-fu、「東京政府」、現在の 2 つの大阪と京都と変わらない)
+          の行政上の変更によって設立されました。市（旧「東都」）は、23の特別区に再分割された区の東側（現在の大阪と京都に似ている）に位置していました.
+          だから今の東京はハノイや北京、ソウルのような都市ではない。
+          日本語では、東京は「地区の首都」に行政名「首都」を持つ日本の唯一の州として正式に知られており、正式名称は東京都（Tōkyō-to、「東の首都」）であり、日本の首都を表しています。東京の特徴である都市と都道府県の異なる要素を組み合わせた「都市のアンサンブル」として支配します。
+          英語では、東京は「Tokyo Metropolis」として完全に知られています。 「Tokyo City」や「Tokyo
+          City」などの名前は、現在の東京では正しくありません。これは、旧東京市にのみ当てはまります。
+        </p>
+      </div>
+
+      <div id="New york" class="tabcontent">
+        <h3>ニューヨーク</h3>
+        <p>
+          東京は日本の本州の南東にある関東地方の一部であり、伊豆諸島と小笠原諸島が含まれています。
+          1603 年に将軍徳川家康が東京を本拠地としたとき、東京は以前は江戸と呼ばれていました。
+          その時、江戸は東京と改称されました。 現在の首都東京は、1943 年に東京政府 (東京府
+          Tōkyō-fu、「東京政府」、現在の 2 つの大阪と京都と変わらない)
+          の行政上の変更によって設立されました。市（旧「東都」）は、23の特別区に再分割された区の東側（現在の大阪と京都に似ている）に位置していました.
+          だから今の東京はハノイや北京、ソウルのような都市ではない。
+          日本語では、東京は「地区の首都」に行政名「首都」を持つ日本の唯一の州として正式に知られており、正式名称は東京都（Tōkyō-to、「東の首都」）であり、日本の首都を表しています。東京の特徴である都市と都道府県の異なる要素を組み合わせた「都市のアンサンブル」として支配します。
+          英語では、東京は「Tokyo Metropolis」として完全に知られています。 「Tokyo City」や「Tokyo
+          City」などの名前は、現在の東京では正しくありません。これは、旧東京市にのみ当てはまります。
+        </p>
+      </div>
+
+      <div id="Jakarta" class="tabcontent">
+        <h3>ジャカルタ</h3>
+        <p>
+          東京は日本の本州の南東にある関東地方の一部であり、伊豆諸島と小笠原諸島が含まれています。
+          1603 年に将軍徳川家康が東京を本拠地としたとき、東京は以前は江戸と呼ばれていました。
+          その時、江戸は東京と改称されました。 現在の首都東京は、1943 年に東京政府 (東京府
+          Tōkyō-fu、「東京政府」、現在の 2 つの大阪と京都と変わらない)
+          の行政上の変更によって設立されました。市（旧「東都」）は、23の特別区に再分割された区の東側（現在の大阪と京都に似ている）に位置していました.
+          だから今の東京はハノイや北京、ソウルのような都市ではない。
+          日本語では、東京は「地区の首都」に行政名「首都」を持つ日本の唯一の州として正式に知られており、正式名称は東京都（Tōkyō-to、「東の首都」）であり、日本の首都を表しています。東京の特徴である都市と都道府県の異なる要素を組み合わせた「都市のアンサンブル」として支配します。
+          英語では、東京は「Tokyo Metropolis」として完全に知られています。 「Tokyo City」や「Tokyo
+          City」などの名前は、現在の東京では正しくありません。これは、旧東京市にのみ当てはまります。
+        </p>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="w3-container w3-padding-64" id="contact">
+        <h1>コンタクト</h1>
+        <br />
+        <p>
+          大小を問わず、あらゆるイベントにフルサービスのケータリングを提供しています。
+          私たちはお客様のニーズを理解し、見た目も味もすべての最大の基準を満たすように料理を提供します。お気軽にお問い合わせください。
+        </p>
+        <p class="w3-text-blue-grey w3-large">
+          <b>ケータリング サービス、42nd Living St、43043 ニューヨーク、NY</b>
+        </p>
+        <p>
+          また、電話 00553123-2323 またはメール cation@cation.com
+          でお問い合わせいただくか、こちらからメッセージを送信していただくこともできます。
+        </p>
+        <form action="/action_page.php" target="_blank">
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="名前"
+              required
+              name="Name"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="number"
+              placeholder="何人"
+              required
+              name="People"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="datetime-local"
+              placeholder="日時"
+              required
+              name="date"
+              value="2020-11-16T20:00"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="メッセージ \ 特別な要件"
+              required
+              name="Message"
+            />
+          </p>
+          <div style="width: 330px">
+            <button
+              class="w3-button w3-light-grey w3-section"
+              type="submit"
+              style="width: 150px; word-break: break-word; white-space: normal"
+            >
+              無料トライアル
+            </button>
+            <button class="w3-button w3-light-grey w3-section" type="submit" style="width: 150px">
+              お問い合わせ
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-32">
+      <p>
+        搭載
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-text-green"
+          >w3.css</a
+        >
+      </p>
+    </footer>
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
+  </body>
+</html>
